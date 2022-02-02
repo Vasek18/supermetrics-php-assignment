@@ -18,4 +18,8 @@
             <directory suffix=".php">./app</directory>
         </whitelist>
     </filter>
+    <php>
+        <env name="FICTIONAL_SOCIAL_API_CLIENT_EMAIL" value="elon@tesla.mars" force="true" />
+        <env name="FICTIONAL_SOCIAL_API_CLIENT_NAME" value="Elon Musk" force="true" />
+    </php>
 </phpunit>
